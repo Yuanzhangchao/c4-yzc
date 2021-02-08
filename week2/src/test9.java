@@ -4,6 +4,7 @@ public class test9 {
         star.shine();
         Universe sun = new Sun();
         sun.doAnything();
+
     }
 }
 interface Universe{
