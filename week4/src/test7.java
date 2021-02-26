@@ -10,7 +10,7 @@ public class test7 {
         for(int i = 0 ; i < len ;i++){
             strs[i] = in.next();
         }
-        Map<String, List<String>> map = new HashMap<>();
+        Map<String, List<String>> map = new HashMap<>(); //存放
         for(String str : strs){
             char[] array = str.toCharArray();
             Arrays.sort(array);
