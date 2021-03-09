@@ -1,1 +1,1 @@
-Alter table choosebb ADD(Bb4 varchar(20));
+Alter table chooseBb ADD(Bb4 varchar(20) NOT NULL);
