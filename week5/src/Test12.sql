@@ -1,0 +1,1 @@
+create table test_temp(Name Varchar(20),Age Integer,Score Numeric(10,2),Address varchar(60));
