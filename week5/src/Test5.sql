@@ -1,0 +1,1 @@
+ALTER table choosebb add(Bb5 varchar(10) NOT NULL,primary key(Bb5));
