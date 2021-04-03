@@ -3,25 +3,25 @@
 <!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
 <mapper namespace="com.yzc.dao.AccountDao">
 
-    <select id="findAll" resultType="com.yzc.domain.Account">
+    <select id="findAll" resultType="com.yzc.entity.Account">
         select * from account;
     </select>
-    <insert id="insert" parameterType="com.yzc.domain.Account">
+    <insert id="insert" parameterType="com.yzc.entity.Account">
         insert into account(id,name,money,createtime,updatetime) values(#{id},#{name},#{money},#{createtime},#{updatetime});
     </insert>
-    <update id="updateByPrimaryKey" parameterType="com.yzc.domain.Account">
+    <update id="updateByPrimaryKey" parameterType="com.yzc.entity.Account">
         update account set money= #{money},updatetime = #{updatetime} where id = #{id};
     </update>
     <delete id="deleteByPrimaryKey" parameterType="java.lang.String">
         delete from account where id = #{id};
     </delete>
-    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultType="com.yzc.domain.Account">
+    <select id="selectByPrimaryKey" parameterType="java.lang.String" resultType="com.yzc.entity.Account">
         select * from account where id = #{id};
     </select>
-    <select id="selectByName" parameterType="java.lang.String" resultType="com.yzc.domain.Account">
+    <select id="selectByName" parameterType="java.lang.String" resultType="com.yzc.entity.Account">
         select * from account where name like #{name};
     </select>
-    <update id="transfer" parameterType="com.yzc.domain.Account">
+    <update id="transfer" parameterType="com.yzc.entity.Account">
         update account set money = money + #{money} , updatetime = #{updatetime} where id = #{id};
     </update>
 

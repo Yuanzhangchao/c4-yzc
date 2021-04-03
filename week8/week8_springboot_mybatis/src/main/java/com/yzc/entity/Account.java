@@ -1,25 +1,14 @@
 package com.yzc.entity;
 
-import java.io.Serializable;
 import java.util.Date;
 
-public class Account implements Serializable {
+public class Account {
     private String id;
     private String name;
     private int money;
     private Date createtime;
     private Date updatetime;
 
-    public Account(){
-
-    }
-    public Account(String id, String name, int money, Date createtime, Date updatetime){
-        this.id =id;
-        this.name = name;
-        this.money = money;
-        this.createtime = createtime;
-        this.updatetime = updatetime;
-    }
     public String getId() {
         return id;
     }

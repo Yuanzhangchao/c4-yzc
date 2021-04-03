@@ -1,6 +1,6 @@
 package com.yzc.dao;
 
-import com.yzc.domain.Account;
+import com.yzc.entity.Account;
 
 import java.util.List;
 

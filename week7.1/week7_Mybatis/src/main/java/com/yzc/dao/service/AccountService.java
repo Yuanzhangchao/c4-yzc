@@ -1,7 +1,7 @@
 package com.yzc.dao.service;
 
 import com.yzc.dao.AccountDao;
-import com.yzc.domain.Account;
+import com.yzc.entity.Account;
 import org.apache.ibatis.session.SqlSession;
 import org.apache.ibatis.session.SqlSessionFactory;
 

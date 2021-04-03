@@ -2,7 +2,7 @@ package com.yzc.test;
 
 import com.yzc.dao.AccountDao;
 import com.yzc.dao.service.AccountService;
-import com.yzc.domain.Account;
+import com.yzc.entity.Account;
 import org.apache.ibatis.io.Resources;
 import org.apache.ibatis.session.SqlSessionFactory;
 import org.apache.ibatis.session.SqlSessionFactoryBuilder;
