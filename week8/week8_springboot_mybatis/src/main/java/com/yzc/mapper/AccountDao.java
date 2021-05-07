@@ -1,4 +1,4 @@
-package com.yzc.mapper;
+package com.yzc.dao;
 
 import com.yzc.entity.Account;
 import org.apache.ibatis.annotations.Mapper;

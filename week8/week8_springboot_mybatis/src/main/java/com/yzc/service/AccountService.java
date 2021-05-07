@@ -1,7 +1,7 @@
 package com.yzc.service;
 
 import com.yzc.entity.Account;
-import com.yzc.mapper.AccountDao;
+import com.yzc.dao.AccountDao;
 import org.junit.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
